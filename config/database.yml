@@ -1,10 +1,22 @@
+# development:
+#   adapter: postgresql
+#   encoding: unicode
+#   database: myapp_development
+#   pool: 5
+#   host: localhost
+#   username: myapp
+#   password: 
+
 development:
   adapter: postgresql
-  encoding: unicode
-  database: myapp_development
   pool: 5
-  username: myapp
-  password: 
+  # these are our new parameters
+  encoding: UTF-8
+  database: my_application_development
+  host: localhost
+  username: jamie
+  password: \password
+
 test:
   adapter: postgresql
   encoding: unicode
