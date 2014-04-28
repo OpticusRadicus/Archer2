@@ -29,8 +29,7 @@ GEM
       i18n (~> 0.6)
       multi_json (~> 1.0)
     arel (3.0.3)
-    bootstrap-sass (3.1.1.1)
-      sass (~> 3.2)
+    bootstrap-sass (2.0.0)
     builder (3.0.4)
     coffee-rails (3.2.2)
       coffee-script (>= 2.2.0)
@@ -58,7 +57,7 @@ GEM
       mime-types (~> 1.16)
       treetop (~> 1.4.8)
     mime-types (1.25.1)
-    multi_json (1.9.2)
+    multi_json (1.9.3)
     pg (0.17.1)
     polyglot (0.3.4)
     rack (1.4.5)
@@ -86,7 +85,7 @@ GEM
     rake (10.3.1)
     rdoc (3.12.2)
       json (~> 1.4)
-    sass (3.3.5)
+    sass (3.3.6)
     sass-rails (3.2.6)
       railties (~> 3.2.0)
       sass (>= 3.1.10)
@@ -109,11 +108,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  bootstrap-sass
+  bootstrap-sass (= 2.0.0)
   coffee-rails (~> 3.2.1)
   factory_girl_rails
   jquery-rails
   pg
   rails (= 3.2.3)
   sass-rails (~> 3.2.3)
+  sprockets
   uglifier (>= 1.0.3)
