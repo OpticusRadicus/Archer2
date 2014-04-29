@@ -1,6 +1,8 @@
 Archer2::Application.routes.draw do
-  # get "static_pages/home"
+  get "user/new"
 
+  # get "static_pages/home"
+match '/signup', to: 'user#new'
 
 match '/help', to: 'static_pages#help'
 

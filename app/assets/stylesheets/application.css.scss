@@ -8,7 +8,10 @@ the
 * scope.
 *
 *= require bootstrap
+*= require custom
 *= require_self
 *= require_tree .
 */
 @import "bootstrap";
+@import "custom";
+
